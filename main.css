@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #353535;
+    color: #ffffff
+}
+.box {
+    color:#ffffff;
+    font-size: 20px;
+    text-align:center;
+    flex: 2;
+    font-family:'Rubik', sans-serif;
+}
+.container {
+    display: flex;
+    min-height: 20px;
+    flex-direction :row;
+    padding: 15px;
+    flex-wrap: rap;
+}
+.yellowtext, .refs,.backtotop  {
+    color: #ffdc16;
+}
+#overhead1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 3px solid #ffdc16;
+}
+
+#underhead1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#whop1{
+    padding: 10px 65px 15px 65px;
+}
+
+.subhead{
+    padding: 20px 100px 0px 100px;
+}
+
+.para{
+    padding: 5px 150px 10px 150px;
+}
+
+.subsubhead{
+    padding: 0px 150px 5px 150px;
+    font-size: 16px
+}
+
+.subpara{
+    padding: 0px 170px 10px 170px;
+    font-size: 14px
+}
+
+#toolM{
+    padding: 10px 30px 10px 30px;
+}
+
+#whyp1{
+    padding: 10px 150px 15px 150px;
+    font-size: 15px
+}
+
+#whycp{
+    padding: 10px 150px 15px 150px;
+}
+
+#toct{
+    padding: 10px 100px 15px 100px;
+}
+#a1ht ,#myBlog, #i1,#a2ht{
+    text-align: center;
+}
+
+#a1h1{
+    padding: 10px 10px 10px 10px
+}
+
+#a1p1{
+    padding:10px 10px 10px 10px;
+}
+#list{
+    padding: 10px 150px 15px 150px;
+}
+#tof, p ,#tof1, #whycp, #whop1{
+    font-size: 15px
+}
+
+#tof, p , #tof1,#whycp,#whyp1,#whop1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+#tofa, .tofb, h2, h3, h4, .backtotop, #myBlog{
+    font-family: 'Rubik', sans-serif;
+}
+
+#ti ,#ct, #ft{
+    width: 50%;
+    height: 50%;
+    border: 3px solid #ffdc16;
+    margin-left: 142px;
+}
+.backtotop{
+    text-align: center;
+    padding: 60px 30px 32px 20px;
+    margin-left: 90px;
+}
+a:visited { 
+    color:#ffdc16;
+  }
