@@ -98,7 +98,7 @@ body {
 #tof, p , #tof1,#whycp,#whyp1,#whop1 {
     font-family: 'Noto Sans', sans-serif;
 }
-#tofa, .tofb, h2, h3, h4, .backtotop, #myBlog{
+#tofb, #tofa, .tofb, h2, h3, h4, .backtotop, #myBlog{
     font-family: 'Rubik', sans-serif;
 }
 
@@ -115,4 +115,10 @@ body {
 }
 a:visited { 
     color:#ffdc16;
-  }
+}
+
+
+
+#tofb, #tofa {
+    padding: 10px 10px 10px 10px;
+}
